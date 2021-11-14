@@ -10,8 +10,8 @@ xanadu_zone = timezone("America/New_York")
 ny_time_zone = timezone("America/New_York")
 
 st.header("Time in Xanadu and New York")
-st.image("Pasted Graphic 14.png")
-f"Q: What time is it?"
+st.image("Pasted Graphic 14.png", caption=f"Q: What time is it?")
+
 st.image("Pasted Graphic 12.png")
 f"A: {datetime.now(ny_time_zone).strftime('%-I:%M')}"
 st.image("Pasted Graphic 14.png")
