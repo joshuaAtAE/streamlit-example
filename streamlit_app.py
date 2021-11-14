@@ -6,10 +6,12 @@ import pandas as pd
 import streamlit as st
 from pytz import timezone
 
+xanadu_zone = timezone("America/New_York")
 ny_time_zone = timezone("America/New_York")
 
+st.header("Time in Xanadu and New York")
 f"What time is it?"
-f"{datetime.now().strftime('%-I:%M')}"
+f"{datetime.now(ny_time_zone).strftime('%-I:%M')}"
 f"What time is it in New York?"
 f"Huh?"
 f"What time is it in New York?"
