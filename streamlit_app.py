@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 from pytz import timezone
 
-ny_time_zone = timezone("America/NewYork")
+ny_time_zone = timezone("America/New_York")
 
 f"What time is it?"
 f"{datetime.now().strftime('%H:%M')}"
