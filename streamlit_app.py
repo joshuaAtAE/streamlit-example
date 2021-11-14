@@ -9,12 +9,12 @@ from pytz import timezone
 ny_time_zone = timezone("America/New_York")
 
 f"What time is it?"
-f"{datetime.now().strftime('%h:%M')}"
+f"{datetime.now().strftime('%-I:%M')}"
 f"What time is it in New York?"
 f"Huh?"
 f"What time is it in New York?"
 time_in_new_york =  datetime.now(ny_time_zone)
-f"{time_in_new_york.strftime('%h:%M')}"
+f"{time_in_new_york.strftime('%-I:%M')}"
 "At night?"
 hour = int(time_in_new_york.strftime('%H'))
 if (hour < 4) or (hour > 17):
