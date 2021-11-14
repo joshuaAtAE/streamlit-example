@@ -14,11 +14,15 @@ st.image("Pasted Graphic 14.png")
 f"Q: What time is it?"
 st.image("Pasted Graphic 12.png")
 f"A: {datetime.now(ny_time_zone).strftime('%-I:%M')}"
+st.image("Pasted Graphic 14.png")
 f"Q: What time is it in New York?"
+st.image("Pasted Graphic 11.png")
 f"A: Huh?"
+st.image("Pasted Graphic 15.png")
 f"Q: What time is it in New York?"
 time_in_new_york =  datetime.now(ny_time_zone)
 f"A: {time_in_new_york.strftime('%-I:%M')}"
+st.image("Pasted Graphic 16.png")
 "Q: At night?"
 hour = int(time_in_new_york.strftime('%H'))
 st.image("Pasted Graphic 17.png")
